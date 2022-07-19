@@ -1,0 +1,26 @@
+.tender {
+    min-height: 460px;
+    background: $black-color;
+    padding: 93px 80px 70px;
+    &__descr {
+        max-width: 558px;
+        margin-top: 34px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: $white-color;
+    }
+    &__btns {
+        margin-top: 43px;
+        max-width: 562px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn {
+        background: #787B85;
+        border: none;
+        &:nth-child(1) {
+            width: 240px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.footer {
+    position: relative;
+    padding: 50px 0 25px;
+    &__wrapper {
+        display: flex;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        max-width: 370px;
+        margin-right: 124px;
+    }
+    &__address {
+        font-weight: 400;
+        font-size: 18px;
+        color: $black-color;
+        margin-top: 32px;
+    }
+    &__email {
+        font-weight: 400;
+        font-size: 18px;
+        color: $black-color;
+        margin-top: 10px;
+    }
+    &__copyright {
+        font-weight: 400;
+        font-size: 14px;
+        color: $black-color;
+        margin-top: 84px;
+    }
+
+    & iframe {
+        filter: grayscale(1);
+        position: absolute;
+        bottom: 34px;
+        right: 0;
+        width: 959px;
+        height: 536px;
+        border: 0;
+    }
+}

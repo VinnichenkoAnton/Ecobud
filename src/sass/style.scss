@@ -1,0 +1,43 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/fonts';
+
+@import 'base/variables';
+* {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+     ::selection {
+        background: transparent;
+        color: $main-color;
+    }
+     ::-moz-selection {
+        background: transparent;
+        color: $main-color;
+    }
+     ::-webkit-selection {
+        background: transparent;
+        color: $main-color;
+    }
+}
+
+@import 'base/container';
+
+
+@import 'blocks/preloader';
+@import 'blocks/mainscreen';
+@import 'blocks/titles&btns';
+@import 'blocks/calculate';
+@import 'blocks/gallery';
+@import 'blocks/tabs';
+@import 'blocks/brandslider';
+@import 'blocks/secret';
+@import 'blocks/requirements';
+@import 'blocks/tender';
+@import 'blocks/build';
+@import 'blocks/interest';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/animations';
+
+@import 'base/media';

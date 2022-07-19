@@ -1,0 +1,46 @@
+.calculate {
+    padding-top: 70px;
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__photo {
+        max-width: 456px;
+        max-height: 678px;
+        z-index: 1;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__price {
+        margin-left: 28px;
+    }
+    &__title {
+        max-width: 610px;
+        margin-top: 91px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 42px;
+        &-photo {
+            position: relative;
+            right: 11%;
+            z-index: 1;
+        }
+        &-descr {
+            max-width: 453px;
+            margin-top: 32px;
+            position: relative;
+            right: calc(11% - 68px);
+        }
+    }
+    &__textitem {
+        width: 453px
+    }
+    &__btn {
+        margin-top: 32px;
+    }
+}

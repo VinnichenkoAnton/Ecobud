@@ -1,0 +1,82 @@
+.mainscreen {
+    min-height: 900px;
+    padding: 32px 0 0;
+    position: relative;
+    background: url(../img/mainscreen/mainscreen__bg.png) no-repeat 50%/cover;
+  
+    &__photo {
+        position: absolute;
+            top: 113px;
+            right: 80px;
+            max-width: 865px;
+            max-height: 787px;
+
+        &-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__common{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    &__logo {
+        width: 266px;
+        height: 50px;
+        &-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__address {
+        font-weight: 400;
+        color: #787B85;
+    }
+    &__email {
+        font-weight: 400;
+        color: #787B85;
+        
+    }
+    &__tel {
+        font-weight: 600;
+        color: $white-color;
+    }
+        
+    &-social {
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 50px;
+        height: 50px;
+        background: rgba(120, 123, 133, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    &__title {
+        margin-top: 132px;
+    }
+    &__subtitle {
+        margin-top: 9px;
+        max-width: 386px;
+    }
+    &__itemlist {
+        margin-top: 34px;
+    }
+    &__btn {
+        margin-top: 43px;
+        margin-left: 95px;
+        color: $white-color;
+    }
+}

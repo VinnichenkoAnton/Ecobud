@@ -1,0 +1,96 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5);
+    &__wrapper {
+        padding: 93px 105px 70px 96px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background-color: $white-color;
+        width: 953px;
+        height: 360px;
+        &_proj, &_tender {
+            padding: 92px 93px 72px 96px;
+            width: 754px;
+            height: 580px;
+        }
+    }
+    &__close {
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: 32px;
+        color: #A7A9B0;
+        border: none;
+        background: transparent;
+    }
+    &__textitem {
+        margin-top: 18px;
+        span>a {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+    &__social {
+        margin-top: 30px;
+    }
+    &__item {
+        background: $main-color;
+    }
+    &__form {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        #userfile {
+            opacity: 0;
+        }
+        #userfile-tender {
+            opacity: 0;
+        }
+    }
+    &__input {
+        border: 3px solid #eef0f4;
+        margin-top: 32px;
+        padding: 19px 18px;
+        width: 264px;
+        height: 60px;
+        background: #EEF0F4;
+        font-weight: 400;
+        font-size: 14px;
+        color: #A7A9B0;
+        &:focus {
+            outline: 0;
+            border: 3px solid $main-color;
+        }
+    }
+    &__btn {
+        width: 227px;
+        margin-top: 36px;
+    }
+    &__thanks {
+        padding: 92px 93px 72px 96px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #fff;
+        width: 754px;
+        height: 300px;
+        text-align: center;
+    }
+}
+
